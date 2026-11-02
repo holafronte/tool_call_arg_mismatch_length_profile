@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "holafronte-searchrank_jd079"
+name = "holafronte-tool_call_arg_mismatch_length_profile"
 version = "0.1.0"
 description = "按段落统计搜索排序算法工程师·工具调用的参数错配相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://holafronte.github.io"
-Repository = "https://github.com/holafronte/searchrank_jd079"
-Issues = "https://github.com/holafronte/searchrank_jd079/issues"
+Repository = "https://github.com/holafronte/tool_call_arg_mismatch_length_profile"
+Issues = "https://github.com/holafronte/tool_call_arg_mismatch_length_profile/issues"
 
 [project.scripts]
-searchrank_jd079 = "searchrank_jd079:main"
+tool_call_arg_mismatch_length_profile = "tool_call_arg_mismatch_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["searchrank_jd079"]
+py-modules = ["tool_call_arg_mismatch_length_profile"]
